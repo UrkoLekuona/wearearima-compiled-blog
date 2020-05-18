@@ -24,7 +24,9 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Build site
-      run: docker run --rm --name jekyll --volume="$PWD:/srv/jekyll" jekyll/jekyll:3.8 jekyll build --trace
+      run: |
+          [ "jekyll" != $(stat -c '%U' .) ] && chown jekyll .
+          docker run --rm --name jekyll --volume="$PWD:/srv/jekyll" jekyll/jekyll:3.8 jekyll build --trace
 
     # Runs a set of commands using the runners shell
     - name: Push to pages branch
