@@ -1,1 +1,1 @@
-Sitemap: https://blog.urkolekuona.github.io//sitemap.xml
+Sitemap: https://urkolekuona.github.io/blog/sitemap.xml
