@@ -16,7 +16,7 @@
 title: ARIMA
 email: arima@arima.eu
 description: ""
-baseurl: "/static-blog" # the subpath of your site, e.g. /blog
+baseurl: "/wearearima-compiled-blog" # the subpath of your site, e.g. /blog
 url: "https://urkolekuona.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wearearima
 github_username:  wearearima
