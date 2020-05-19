@@ -1,1 +1,1 @@
-Sitemap: https://blog.arima.eu/sitemap.xml
+Sitemap: https://blog.arima.eu/wearearima-compiled-blog.github.io/sitemap.xml
