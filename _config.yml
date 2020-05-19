@@ -16,8 +16,8 @@
 title: ARIMA
 email: arima@arima.eu
 description: ""
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://urkolekuona.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.prueba.urkolekuona.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wearearima
 github_username:  wearearima
 permalink: /:year/:month/:day/:title:output_ext #Remove categories from urls
