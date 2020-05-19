@@ -1,1 +1,1 @@
-Sitemap: https://urkolekuona.github.io/static-blog/sitemap.xml
+Sitemap: https://urkolekuona.github.io/wearearima-compiled-blog/sitemap.xml
