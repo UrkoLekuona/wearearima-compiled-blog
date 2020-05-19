@@ -7,7 +7,7 @@ on:
     
 jobs:
   jekyll:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
 
@@ -22,6 +22,11 @@ jobs:
     # Standard usage
     - uses:  lemonarc/jekyll-action@1.0.0
     
+    # Check for build
+    - name: Check
+      run: |
+        ls
+        ls _site
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
